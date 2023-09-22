@@ -57,7 +57,7 @@ export default async function Resume() {
                         alt="contact-icon"
                         className="object-contain"
                       />
-                      <div className="hover:bg-[#f73d7a] hover:text-[white] text-sm max-w-[200px] p-2">
+                      <div className="hover:bg-[#a60e32] hover:text-[white] text-sm max-w-[200px] p-2">
                         {contact.name}
                       </div>
                     </Link>
@@ -111,7 +111,7 @@ export default async function Resume() {
             <div key={section.sectionName} className="mb-5">
               <div className="flex flex-col items-center bg-[#fd79a8] ">
                 <div
-                  className="flex justify-center items-center h-12 bg-[#f73d7a] w-9/12 text-white p-5"
+                  className="flex justify-center items-center h-12 bg-[#a60e32] w-9/12 text-white p-5"
                   style={{
                     clipPath:
                       "polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);",
