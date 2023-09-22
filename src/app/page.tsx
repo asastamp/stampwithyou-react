@@ -19,17 +19,25 @@ export default async function Resume() {
           />
         </Link>
       </div>
-      <div className="flex rounded-lg bg-white mb-24 mx-16 md:mx-36">
-        <div className="w-1/3 p-5 rounded-l-lg bg-[#fd79a8]">
-          <div className="flex justify-center my-7">
+      <div className="flex rounded-lg bg-white mb-24 mx-0 flex-col lg:flex-row xl:mx-36">
+        <div className="w-screen p-5 lg:rounded-l-lg bg-[#fd79a8] lg:w-1/3">
+          <div className="flex flex-col justify-center align-center my-7 md:flex-row">
             <Image
-              className="w-52 h-52 rounded-full object-contain hover:shadow-2xl"
+              className="w-52 h-52 mr-0 md:mr-10 rounded-full object-contain hover:shadow-2xl lg:mr-0"
               src="/resume/profile.png"
               alt="profile"
               width={200}
               height={200}
               priority
             />
+            <div className="block lg:mb-6 lg:hidden">
+              <h1 className="text-3xl font-medium text-center m-5 md:m-10">
+                {resume.name}
+              </h1>
+              <div className="text-l font-light text-center">
+                {resume.description}
+              </div>
+            </div>
           </div>
           <div className="mb-5 pb-5 border-b border-b-black border-opacity-50">
             <h2 className="mb-5 text-2xl font-medium text-center">CONTACT</h2>
@@ -67,7 +75,7 @@ export default async function Resume() {
                 <h3 className="text-lg text-center font-normal mt-6 mb-4 ">
                   {skill.topic}
                 </h3>
-                <div className="grid grid-cols-[repeat(2,30px_max-content)] gap-2 justify-center items-center">
+                <div className="grid grid-cols-[repeat(2,30px_max-content)] md:grid-cols-[repeat(4,30px_max-content)] lg:grid-cols-[repeat(2,30px_max-content)] gap-2 justify-center items-center">
                   {skill.skill.map((subSkill) => (
                     <div
                       key={subSkill.path}
@@ -90,8 +98,8 @@ export default async function Resume() {
             ))}
           </div>
         </div>
-        <div className="w-2/3 p-5 mb-5">
-          <div className="mb-6">
+        <div className="w-screen p-1 md:mb-5 lg:w-2/3 md:p-5">
+          <div className="hidden lg:mb-6 lg:block">
             <h1 className="text-5xl font-medium text-center m-8">
               {resume.name}
             </h1>
@@ -109,7 +117,7 @@ export default async function Resume() {
                       "polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);",
                   }}
                 >
-                  <h2 className="text-2xl font-light text-center">
+                  <h2 className="text-l font-light text-center md:text-xl">
                     {section.sectionName}
                   </h2>
                 </div>
@@ -122,7 +130,7 @@ export default async function Resume() {
                       <div className="flex justify-between">
                         <h3 className="text-xl font-semibold">{detail.name}</h3>
                         {detail.dateTime && (
-                          <h3 className="text-lg text-[#a60e32] font-light">
+                          <h3 className="hidden text-lg text-[#a60e32] font-light md:block">
                             {detail.dateTime}
                           </h3>
                         )}
@@ -141,6 +149,11 @@ export default async function Resume() {
                       <div className="text-base font-light">
                         {detail.subheader}
                       </div>
+                      {detail.dateTime && (
+                        <h3 className="block text-base md:text-lg text-[#a60e32] font-light md:hidden">
+                          {detail.dateTime}
+                        </h3>
+                      )}
                       <div className="mt-3">
                         {detail.descriptions.map((description) => (
                           <div
@@ -150,9 +163,10 @@ export default async function Resume() {
                                 ? "my-2 font-semibold"
                                 : 'my-1 ml-5 font-light before:bg-[#fd79a8] before:text-[#fd79a8] before:mr-2 before:content-["-"]'
                             }
-                          >
-                            {description.label}
-                          </div>
+                            dangerouslySetInnerHTML={{
+                              __html: description.label,
+                            }}
+                          ></div>
                         ))}
                       </div>
                     </div>
