@@ -21,7 +21,7 @@ export default async function Resume() {
       </div>
       <div className="flex rounded-lg bg-white mb-24 mx-0 flex-col lg:flex-row xl:mx-36">
         <div className="w-screen p-5 lg:rounded-l-lg bg-[#fd79a8] lg:w-1/3">
-          <div className="flex flex-col justify-center align-center my-7 md:flex-row">
+          <div className="flex flex-col justify-center items-center my-7 md:flex-row">
             <Image
               className="w-52 h-52 mr-0 md:mr-10 rounded-full object-contain hover:shadow-2xl lg:mr-0"
               src="/resume/profile.png"
