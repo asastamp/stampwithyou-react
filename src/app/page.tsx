@@ -114,7 +114,7 @@ export default async function Resume() {
                   className="flex justify-center items-center h-12 bg-[#a60e32] w-9/12 text-white p-5"
                   style={{
                     clipPath:
-                      "polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);",
+                      "polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0)",
                   }}
                 >
                   <h2 className="text-l font-light text-center md:text-xl">

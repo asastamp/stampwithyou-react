@@ -246,11 +246,11 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "Developed website sanook.com using NextJS and NestJS",
+              label: "Developed website sanook.com using Next.js and NestJS",
             },
             {
               selector: "item",
-              label: "Maintained NGINX Web Server",
+              label: "Maintained NGINX web server",
             },
             {
               selector: "item",
@@ -263,13 +263,12 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label:
-                "Monitored website with New Relic, Google Analytics, Google Kubernetes Engine",
+              label: "Monitored website after launhing",
             },
             {
               selector: "item",
               label:
-                "Collaborated with PM / Designer / Tester / Infra / SEO / Ads",
+                "Collaborated with Project Manager / Designer / Tester / Infra / SEO / Ads",
             },
             {
               selector: "label",
@@ -277,7 +276,7 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "NextJS",
+              label: "Next.js",
             },
             {
               selector: "item",
@@ -285,7 +284,7 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "Graphql",
+              label: "GraphQL",
             },
             {
               selector: "item",
@@ -301,7 +300,7 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "Solr",
+              label: "Apache Solr",
             },
             {
               selector: "item",
@@ -309,11 +308,15 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "Docker, Kubenetes (GKE)",
+              label: "Docker / Kubenetes (GKE)",
             },
             {
               selector: "item",
-              label: "Google Analytic, Google Tag Manager",
+              label: "Google Analytic / Google Tag Manager",
+            },
+            {
+              selector: "item",
+              label: "Google Ads Manager",
             },
             {
               selector: "item",
@@ -325,7 +328,11 @@ export const resume: Resume = {
             },
             {
               selector: "item",
-              label: "Jira, Wiki (Collaboration)",
+              label: "Jira (Project Management)",
+            },
+            {
+              selector: "item",
+              label: "Wiki (Documentation)",
             },
           ],
         },
