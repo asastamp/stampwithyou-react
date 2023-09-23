@@ -3,14 +3,9 @@ export const resume: Resume = {
   description: "Full Stack Software Engineer based in Bangkok, Thailand",
   contacts: [
     {
-      path: "/resume/icons/contact/email.png",
-      name: "n_kittiphan@hotmail.com",
-      link: "mailto: n_kittiphan@hotmail.com?subject=Hello Stamp",
-    },
-    {
-      path: "/resume/icons/contact/facebook.svg",
-      name: "Stamp Nilprakobkul",
-      link: "https://www.facebook.com/magicszombie",
+      path: "/resume/icons/contact/linkedin.svg",
+      name: "stamp-nilprakobkul",
+      link: "https://www.linkedin.com/in/stamp-nilprakobkul",
     },
     {
       path: "/resume/icons/contact/github.svg",
@@ -18,9 +13,9 @@ export const resume: Resume = {
       link: "https://github.com/asastamp",
     },
     {
-      path: "/resume/icons/contact/linkedin.svg",
-      name: "stamp-nilprakobkul",
-      link: "https://www.linkedin.com/in/stamp-nilprakobkul",
+      path: "/resume/icons/contact/email.png",
+      name: "n_kittiphan@hotmail.com",
+      link: "mailto: n_kittiphan@hotmail.com?subject=Hello Stamp",
     },
   ],
   skills: [
@@ -40,6 +35,10 @@ export const resume: Resume = {
           name: "Javascript",
         },
         {
+          path: "/resume/icons/technology/typescript.svg",
+          name: "Typescript",
+        },
+        {
           path: "/resume/icons/technology/react.svg",
           name: "React",
         },
@@ -54,10 +53,6 @@ export const resume: Resume = {
         {
           path: "/resume/icons/technology/scss.svg",
           name: "Sass / Scss",
-        },
-        {
-          path: "/resume/icons/technology/typescript.svg",
-          name: "Typescript",
         },
         {
           path: "/resume/icons/technology/redux.svg",

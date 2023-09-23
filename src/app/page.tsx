@@ -71,7 +71,7 @@ export default async function Resume() {
               EXPEREINCED TOOL
             </h2>
             {resume.skills.map((skill) => (
-              <>
+              <div key={skill.topic}>
                 <h3 className="text-lg text-center font-normal mt-6 mb-4 ">
                   {skill.topic}
                 </h3>
@@ -94,7 +94,7 @@ export default async function Resume() {
                     </div>
                   ))}
                 </div>
-              </>
+              </div>
             ))}
           </div>
         </div>
