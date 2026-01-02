@@ -231,9 +231,147 @@ export const resume: Resume = {
       sectionName: "WORK EXPERIENCE",
       details: [
         {
+          name: "POINTX COMPANY LIMITED",
+          subheader: "Senior Software Engineer (Acting Squad Lead)",
+          dateTime: "Mar 2025 - Present",
+          descriptions: [
+            {
+              selector: "label",
+              label: "Descriptions",
+            },
+            {
+              selector: "item",
+              label:
+                "Lead a backend engineering group of 3–5 developers, supported by a shared QA resource",
+            },
+            {
+              selector: "item",
+              label:
+                "Own delivery planning, backlog prioritization, and sprint execution",
+            },
+            {
+              selector: "item",
+              label:
+                "Coordinate requirement clarification with Product Owners and manage cross-team dependencies",
+            },
+            {
+              selector: "item",
+              label:
+                "Conduct technical interviews and evaluate candidates for team hiring, ensuring skill fit and culture alignment",
+            },
+            {
+              selector: "item",
+              label:
+                "Supported the cloud migration from AWS to Azure by assisting in application code changes and environment configuration",
+            },
+            {
+              selector: "label",
+              label: "Tools",
+            },
+            {
+              selector: "item",
+              label: "Java / Kotlin Spring Boot",
+            },
+            {
+              selector: "item",
+              label: "Next.js",
+            },
+            {
+              selector: "item",
+              label: "GraphQL",
+            },
+            {
+              selector: "item",
+              label: "MongoDB",
+            },
+            {
+              selector: "item",
+              label: "Azure (ADF, AKV, Storage Account)",
+            },
+            {
+              selector: "item",
+              label: "AWS",
+            },
+            {
+              selector: "item",
+              label: "Keycloak",
+            },
+            {
+              selector: "item",
+              label: "Unleash",
+            },
+            {
+              selector: "item",
+              label: "Kibana",
+            },
+          ],
+        },
+        {
+          name: "SCB X PUBLIC COMPANY LIMITED",
+          subheader: "Senior Software Engineer",
+          dateTime: "Feb 2024 - Feb 2025",
+          descriptions: [
+            {
+              selector: "label",
+              label: "Descriptions",
+            },
+            {
+              selector: "item",
+              label:
+                "Supported core system development during SCBX to POINTX spin-off, ensuring business continuity",
+            },
+            {
+              selector: "item",
+              label:
+                "Developed batch accounting systems for financial posting and reconciliation",
+            },
+            {
+              selector: "item",
+              label:
+                "Formed and led a cross-functional squad delivering accounting, tax, reconciliation, and settlement platforms",
+            },
+            {
+              selector: "label",
+              label: "Tools",
+            },
+            {
+              selector: "item",
+              label: "Java / Kotlin Spring Boot",
+            },
+            {
+              selector: "item",
+              label: "Next.js",
+            },
+            {
+              selector: "item",
+              label: "GraphQL",
+            },
+            {
+              selector: "item",
+              label: "MongoDB",
+            },
+            {
+              selector: "item",
+              label: "AWS",
+            },
+            {
+              selector: "item",
+              label: "Keycloak",
+            },
+            {
+              selector: "item",
+              label: "Unleash",
+            },
+            {
+              selector: "item",
+              label: "Kibana",
+            },
+          ],
+        },
+        {
           name: "Tencent (Thailand) Company Limited",
           subheader: "Full Stack Software Engineer (IT Sanook)",
-          dateTime: "Aug 2021 - Present",
+          dateTime: "Aug 2021 - Jan 2024",
           descriptions: [
             {
               selector: "label",
